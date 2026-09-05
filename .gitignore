@@ -1,0 +1,29 @@
+# Environment variables and secrets (NEVER commit credentials!)
+.env
+.env.*
+!.env.example
+
+# Gem dependencies and bundler output
+/vendor/bundle/
+.bundle/
+
+# RSpec execution & coverage reports
+/coverage/
+/spec/reports/
+.rspec_status
+
+# Capybara screenshots and HTML artifacts
+/tmp/
+/capybara-*.html
+*.png
+*.jpeg
+*.jpg
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
