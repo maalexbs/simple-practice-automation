@@ -1,5 +1,8 @@
 require_relative 'base_page'
 
+# Page object representing the authentication page.
+# Encapsulates elements and interactions for credentials entry
+# and sign-in verification.
 class LoginPage < BasePage
 
   EMAIL_INPUT = '#user_email'
