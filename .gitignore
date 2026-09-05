@@ -1,4 +1,4 @@
-# Environment variables and secrets (NEVER commit credentials!)
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
@@ -27,3 +27,8 @@
 
 # Log files
 *.log
+
+# YARD documentation build artifacts and cache
+.yardoc/
+doc/
+_yardoc/
